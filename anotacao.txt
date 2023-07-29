@@ -1,0 +1,120 @@
+var minhaVar, soma, fazSol, comida;
+
+minhaVar=10;
+
+soma=15+8;
+
+fazSol=true;
+
+comida=["arroz","feijão", "ovo"];
+
+
+console.log(++soma);
+console.log(soma*3);
+console.log(comida[1]);
+console.log(soma===minhaVar);
+console.log(minhaVar<=soma);
+
+function divisao (num1, num2) {
+    return num1 / num2
+    };
+    console.log (divisao(10, 2));
+
+
+
+    let num1;
+
+SE É POSITIVO
+if(num1>=0){
+    num1 = -10;  
+ }
+
+SE NÃO É POSITIVO
+let = -10;
+if (num1>=0) {
+    console.log("O numero é positivo!");
+} else {
+    console.log("É negativo!"); 
+}
+
+SE É PAR
+if(num1%2===0);{
+    num1=4;
+}
+console.log("O numero é par!");
+
+SE É NÃO PAR
+num1 = 11;
+if (num1%2===0) {
+    console.log("É par!");
+} else {
+ console.log("É ímpar!")  
+}
+
+if(num1=null); {
+    num1=[];
+}
+console.log("É uma string vazia!"); 
+
+if(num1>10){
+ num1=101;  
+}
+console.log("O numero é maior que 10!")
+
+
+if (typeof num1 === "boolean") {
+    num1="false";
+}
+console.log("É boleano!");
+
+let num1;
+num1="false";
+if (typeof num1 === "boolean") {
+    console.log("É booleano!");
+} else {
+   console.log("Não é boleano!") ;
+}
+
+Se é negativo, positivo ou zero
+let num1;
+num1=-1;
+if (num1>0) {
+  console.log("É positivo") 
+} else if (num1<0){
+    console.log("É negativo!") 
+}
+else {
+    console.log("É Zero!")  
+}
+
+// Se é divisivel por 2, 3 ou 5;
+let num1;
+num1= 8 ;
+if (num1%2===0){
+  console.log("É divisivel por 2!") 
+} else if (num1%3===0){
+    console.log("É divisivel por 3!") 
+}
+else  {
+    console.log("É divisivel por 5!")  
+} 
+ 
+if (condition1) {
+   block of code to be executed if condition1 is true
+} else if (condition2) {
+     block of code to be executed if the condition1 is false and condition2 is true
+  } else {
+     block of code to be executed if the condition1 is false and condition2 is false
+  }
+
+let num1
+num1=10;
+if (num1%2===0){
+   console.log("É dividido por 2!") 
+ } else if (num1%3===0){
+     console.log("É dividido por 3!") 
+ }
+ else (num1%5===0)   
+     console.log("É dividido por 5!")  
+
+
