@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  },
+  "name": "softex",
+  "description": "Atividades e Desafios - Sala de Aula e Plataforma Online - Formação Dev Back-End First Commit",
+  "version": "1.0.0",
+  "main": "Desafio1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
