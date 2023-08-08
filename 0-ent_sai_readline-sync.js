@@ -3,6 +3,7 @@
 // ==> OPÇÃO 1
 // Digitar no terminal o comando: npm install readline-sync
 const readline = require('readline-sync');
+readline.questionInt();
 
 // Entrada de dados
 console.log("Digite o primeiro valor: ");
