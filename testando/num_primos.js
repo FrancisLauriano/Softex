@@ -21,6 +21,7 @@ function primos() {
             contador++;
         }
     
+        
     console.log(`Entre 0 e 100 tem ${numPrimo} números primos`);
     }
 primos();
