@@ -28,28 +28,28 @@ function calculadora (){
             } else if (operacao===1) {
                 console.log("Informe 1º número: "); 
                 let num1 = readline.questionFloat(); 
-                console.log("Informe 1º número: "); 
+                console.log("Informe 2º número: "); 
                 let num2 = readline.questionFloat();
                 console.log("Resultado:", soma(num1,num2));
                 break;
             } else if(operacao===2) {
                 console.log("Informe 1º número: "); 
                 let num1 = readline.questionFloat(); 
-                console.log("Informe 1º número: "); 
+                console.log("Informe 2º número: "); 
                 let num2 = readline.questionFloat();
                 console.log("Resultado:", sub(num1,num2));
                 break;
             } else if(operacao===3) {
                 console.log("Informe 1º número: "); 
                 let num1 = readline.questionFloat(); 
-                console.log("Informe 1º número: "); 
+                console.log("Informe 2º número: "); 
                 let num2 = readline.questionFloat();
                 console.log("Resultado:", mult(num1,num2));
                 break;
             } else if(operacao===4) {
                 console.log("Informe 1º número: "); 
                 let num1 = readline.questionFloat(); 
-                console.log("Informe 1º número: "); 
+                console.log("Informe 2º número: "); 
                 let num2 = readline.questionFloat();
                 console.log("Resultado:", div(num1,num2));
                 break;
