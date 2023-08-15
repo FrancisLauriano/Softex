@@ -2,7 +2,6 @@
 // Ela precisa conter informações como nome, idade e referência ao filho dela.
 
 
-// Classe nó é a menor estrutura de uma lista ligada 
 // classe nó: possui um construtor e dois atributos (Nome e próximo)
 class Node {
     constructor(nome, idade, filho = null){ 
@@ -13,6 +12,8 @@ class Node {
     } 
 }
 
+// classe lista ligada: possui um construtor(q recebe o nó cabeça da lista) e  
+// tambem os métodos referentes às operações (métodos) de manipulação da lista
 class Lista{ 
     constructor(){
         this.head = undefined;
