@@ -2,9 +2,9 @@
 let fila = [3, 7, 9, 1, 0];
 fila.shift();
 console.log(fila);
-/*Na fila o primeiro a entrar, é primeiro a sair e como o primeiro elemento 
+/*Na fila o primeiro elemento a entrar, é primeiro a sair e como o primeiro elemento 
 a ser inserido foi o 3, e em seguida o 7 e assim por diante. Dessa forma, os elementos
-serão removidos do indice 0 ate o indice 4 do array, como na demostração abaixo:
+serão removidos do índice 0 ate o índice 4 do array, como na demostração abaixo:
 [3, 7, 9, 1, 0]
 [7, 9, 1, 0]
 [9, 1, 0]
@@ -19,7 +19,7 @@ pilha.pop();
 console.log(pilha);
 /* Na pilha o último item adicionado é o primeiro a ser removido e como primeiro a ser 
 inserido foi o 3, depois o 7 e assim por diante. Assim, a sequencia de remoção 
-de elementos começará do indice 4 ate o indice 0, como demostrado abaixo:
+de elementos começará do índice 4 ate o índice 0, como demostrado abaixo:
 [3, 7, 9, 1, 0]
 [3, 7, 9, 1]
 [3, 7, 9]
@@ -36,7 +36,7 @@ de elementos começará do indice 4 ate o indice 0, como demostrado abaixo:
 // por meio dos seus índices. Dessa forma, pode-se remover os elementos em qualquer 
 // índice ate o completo esvaziamento do array em questão. Usando método splice(),
 // podemos remover os elementos por meio dos índices até o array ficar vazio, ou seja,
-// retornar []:
+// até retornar []:
 let lista = [3, 7, 9, 1, 0];
 lista.splice();
 
