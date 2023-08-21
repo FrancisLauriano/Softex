@@ -17,7 +17,7 @@
 // }
 // exibirSaudacao("Francis", 8, "agosto", 2023);
 
-
+//**** LISTA DE EXERCICIOS - 1 *******
 // Exercícios Funções sem retorno
 
 // 1- Crie uma função chamada saudacao que exiba a mensagem "Olá, 
@@ -92,6 +92,8 @@
 // }
 // imprimirLista();
 
+
+//####### LISTA DE EXERCICIOS - 2 #######
 
 // 1- Escreva uma função chamada calcularMedia que receba um array de números 
 // como parâmetro e calcule a média desses números. 

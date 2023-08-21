@@ -1,4 +1,5 @@
-//EXERCICIOS
+//**** LISTA DE EXERCICIOS - 1 *******
+
 // 1-Dado o array abaixo, acesse o segundo elemento e 
 // armazene-o em uma variável chamada "segundoElemento". 
 
@@ -35,6 +36,8 @@
 // }else{
 //     console.log("Infelizmente o valor não foi encontrado!");
 // }
+
+//####### LISTA DE EXERCICIOS - 2 #######
 
 //1- Crie dois arrays com números de 1 a 5 cada e, em seguida, concatene-os 
 // em um novo array.

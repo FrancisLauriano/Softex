@@ -4,6 +4,9 @@
 // }
 // exibirSaudacao();
 
+
+//**** LISTA DE EXERCICIOS - 1 *******
+
 // 1- Crie uma função chamada saudacao que aceita um parâmetro nome para uma pessoa e 
 // exiba no console a saudação "Olá, [nome]!" utilizando um valor padrão para nome 
 // caso nenhum seja fornecido.
@@ -57,6 +60,7 @@
 // }
 // contagemRegressiva(8);
 
+//##### LISTA DE EXERCICIOS - 1 #####
 
 // 1- Escreva uma função chamada apresentacao que aceite três parâmetros: 
 // nome, idade e profissao. A função deve exibir no console uma mensagem de apresentação 
