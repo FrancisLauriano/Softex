@@ -1,6 +1,6 @@
 // 1- Crie uma função recursiva chamada somaRecursiva que 
 // receba um número inteiro positivo n como argumento e calcule 
-// a soma de todos os números inteiros de 1 até n.
+// a soma de todos os números inteiros de 1 até n
 
 
 // function somaRecursiva (n) {
