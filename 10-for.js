@@ -15,6 +15,10 @@ for (let i=1; i<=10; i++)  {
 
 // ===== EXERCICIOS =====
 // 1. Imprima os números pares de 1 a 20.
+for(let i=1; i<=20; i++){
+
+}
+
 
 
 // 2. Calcule a soma dos números de 1 a 100 utilizando for.

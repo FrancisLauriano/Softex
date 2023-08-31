@@ -4,7 +4,7 @@
 //==> saudação
 // function exibirSaudacao(nome){
 //     console.log("Helo,", nome);
-    
+
 // }
 // exibirSaudacao("Francis");
 
@@ -13,7 +13,7 @@
 // function exibirSaudacao(nome, dia, mes, ano){
 //     let mensagem = `Hello, ${nome}!\nHoje é ${dia} de ${mes} de ${ano}`
 //     console.log(mensagem);
-    
+
 // }
 // exibirSaudacao("Francis", 8, "agosto", 2023);
 
@@ -41,7 +41,7 @@
 // intervalo de inicio a fim (inclusive) no console.
 
 // function mostrarNumeros(inicio, fim){
-    
+
 //     for(let contador = inicio; contador<=fim; contador++){
 //         if(Number.isInteger(contador)){
 //             console.log(contador);
@@ -197,7 +197,7 @@
 //         }
 
 //     }
-    
+
 //   console.log(`O número ${num3} ${primo}`);  
 // }
 // verificarPar();

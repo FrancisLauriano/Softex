@@ -91,4 +91,3 @@
 //     console.log(Array.isArray(frutas));
 // }
 // minhaArray4();
-

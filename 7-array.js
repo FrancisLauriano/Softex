@@ -74,23 +74,3 @@ console.log("4. Questão-2.Lista", frutas.indexOf("laranja"));
 //PARA SABER SE É UMA ARRY OU NÃO - USAR FUNÇÃO Array.isArray()
 const frutas_4 = ['maçã', 'banana', 'laranja', 'uva', 'manga'];
 console.log("5. Questão-2.Lista:", Array.isArray(frutas_4));
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

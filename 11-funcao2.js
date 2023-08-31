@@ -1,6 +1,6 @@
 // function exibirSaudacao(saudacao = "Hello", nome) {
 //     console.log(`${saudacao}, ${nome}`);
-    
+
 // }
 // exibirSaudacao();
 
@@ -13,7 +13,7 @@
 
 // function saudacao(nome="Francis") {
 //     console.log(`Ola, ${nome}`);
-    
+
 // }
 // saudacao();
 
@@ -69,7 +69,7 @@
 
 // function apresentacao(nome="Francis", idade=30, profissao="Sanitarista") {
 //     console.log(`Olá, eu sou ${nome}, tenho ${idade} anos e sou ${profissao}`);
-    
+
 // }
 // apresentacao();
 
@@ -190,9 +190,4 @@ function gerarSenha(tamanho) {
 const readline = require('readline-sync');
 const informarTamanho = readline.questionInt(console.log(`Informe a quantidade de caracter da senha:`));
 const senhaConcluida = gerarSenha(informarTamanho);
-console.log(`A sua senha é: ${senhaConcluida}`)
-
-
-
-// Number.isInteger(5)
-// typeof(x) === 'string'
+console.log(`A sua senha é: ${senhaConcluida}`);
