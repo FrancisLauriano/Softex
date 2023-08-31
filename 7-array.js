@@ -1,7 +1,7 @@
 // const readline = require('readline-sync');
 // const prompt = require('prompt-sync')();
 
-// EXERCICIOS - LISTA 1 
+//**** LISTA DE EXERCICIOS - 1 *******
 
 // 1. Dado o array abaixo, acesse o segundo elemento e armazene-o em uma variável chamada"segundoElemento". 
 // PARA ATRIBUIR VALOR A UM ELEMENTO DA ARRAY: nomeDaArray[posicaoDoElemento] = "atribuição"
@@ -34,7 +34,7 @@ const numeros = [10, 20, 30, 40, 50];
 console.log("5. Questão: Existe o número 25?", includesTwenty = numeros.includes(25))
 
 
-// EXERCICIOS - LISTA 2
+//####### LISTA DE EXERCICIOS - 2 #######
 
 //1. Criar array com numero de 1 a 5, e concatenar novo array
 // PARA CONCATENAR ARRAY - USAR FUNÇÃO concat
@@ -74,23 +74,3 @@ console.log("4. Questão-2.Lista", frutas.indexOf("laranja"));
 //PARA SABER SE É UMA ARRY OU NÃO - USAR FUNÇÃO Array.isArray()
 const frutas_4 = ['maçã', 'banana', 'laranja', 'uva', 'manga'];
 console.log("5. Questão-2.Lista:", Array.isArray(frutas_4));
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

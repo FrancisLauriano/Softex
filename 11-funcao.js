@@ -4,7 +4,7 @@
 //==> saudação
 // function exibirSaudacao(nome){
 //     console.log("Helo,", nome);
-    
+
 // }
 // exibirSaudacao("Francis");
 
@@ -13,11 +13,11 @@
 // function exibirSaudacao(nome, dia, mes, ano){
 //     let mensagem = `Hello, ${nome}!\nHoje é ${dia} de ${mes} de ${ano}`
 //     console.log(mensagem);
-    
+
 // }
 // exibirSaudacao("Francis", 8, "agosto", 2023);
 
-
+//**** LISTA DE EXERCICIOS - 1 *******
 // Exercícios Funções sem retorno
 
 // 1- Crie uma função chamada saudacao que exiba a mensagem "Olá, 
@@ -41,7 +41,7 @@
 // intervalo de inicio a fim (inclusive) no console.
 
 // function mostrarNumeros(inicio, fim){
-    
+
 //     for(let contador = inicio; contador<=fim; contador++){
 //         if(Number.isInteger(contador)){
 //             console.log(contador);
@@ -92,6 +92,8 @@
 // }
 // imprimirLista();
 
+
+//####### LISTA DE EXERCICIOS - 2 #######
 
 // 1- Escreva uma função chamada calcularMedia que receba um array de números 
 // como parâmetro e calcule a média desses números. 
@@ -195,11 +197,12 @@
 //         }
 
 //     }
-    
+
 //   console.log(`O número ${num3} ${primo}`);  
 // }
 // verificarPar();
 
+// ---- OU -----
 
 // function numeroPrimo(num) {
 //     for (var i = 2; i < num; i++) {

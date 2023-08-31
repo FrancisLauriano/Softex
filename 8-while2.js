@@ -5,16 +5,12 @@ var x = y;
    while (expressao) {
     instrucao;
    }
-
 -instrucao: bloco de código executado dentro do while.
 -expressao: condição avaliada para a execução do bloco.
-
 --> Exemplo:
 let contador = 0;
-
 while (contador < 50) {
   console.log("repetição nº " + contador);
-
   contador++;
 }
 */
@@ -57,7 +53,7 @@ while (contador < 50) {
 // while(contador4<=1001){
 //   console.log(contador4*=2);
 // }
- 
+
 
 // 5. Verifique se um número é primo.
 
@@ -92,7 +88,7 @@ console.log(`Entre ${num1} e ${num2} tem ${qtdPrimos} números primos!`); */
 // while(true){
 //   console.log(`Digite uma senha com seis números inteiros`);
 //   let senha = readline.questionInt();
- 
+
 //   if(Number.isInteger(senha) & senha <= 000001){
 //     console.log(`Cadastro realizado com sucesso!`);
 //     break;
@@ -138,4 +134,3 @@ console.log(`Entre ${num1} e ${num2} tem ${qtdPrimos} números primos!`); */
 // while(contador7>=1){
 //   console.log(contador7--);
 // }
-

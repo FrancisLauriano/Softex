@@ -1,8 +1,11 @@
 // function exibirSaudacao(saudacao = "Hello", nome) {
 //     console.log(`${saudacao}, ${nome}`);
-    
+
 // }
 // exibirSaudacao();
+
+
+//**** LISTA DE EXERCICIOS - 1 *******
 
 // 1- Crie uma função chamada saudacao que aceita um parâmetro nome para uma pessoa e 
 // exiba no console a saudação "Olá, [nome]!" utilizando um valor padrão para nome 
@@ -10,7 +13,7 @@
 
 // function saudacao(nome="Francis") {
 //     console.log(`Ola, ${nome}`);
-    
+
 // }
 // saudacao();
 
@@ -57,6 +60,7 @@
 // }
 // contagemRegressiva(8);
 
+//##### LISTA DE EXERCICIOS - 1 #####
 
 // 1- Escreva uma função chamada apresentacao que aceite três parâmetros: 
 // nome, idade e profissao. A função deve exibir no console uma mensagem de apresentação 
@@ -65,7 +69,7 @@
 
 // function apresentacao(nome="Francis", idade=30, profissao="Sanitarista") {
 //     console.log(`Olá, eu sou ${nome}, tenho ${idade} anos e sou ${profissao}`);
-    
+
 // }
 // apresentacao();
 
@@ -186,7 +190,4 @@ function gerarSenha(tamanho) {
 const readline = require('readline-sync');
 const informarTamanho = readline.questionInt(console.log(`Informe a quantidade de caracter da senha:`));
 const senhaConcluida = gerarSenha(informarTamanho);
-console.log(`A sua senha é: ${senhaConcluida}`)
-
-
-
+console.log(`A sua senha é: ${senhaConcluida}`);
