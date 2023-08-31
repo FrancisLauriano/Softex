@@ -260,7 +260,9 @@ salarioTotalAnual();
 
 // 9. Elabore um programa em JS para que leia três números e mostre-os em ordem crescente.
 
-function ordemDecrescente(){
+// 9. Elabore um programa em JS para que leia três números e mostre-os em ordem crescente.
+
+function ordemCrescente(){
 
 	const readline8= require('readline-sync');
 	let numero1 = readline8.questionFloat(console.log(`Digite o 1º número: `));
@@ -273,21 +275,21 @@ function ordemDecrescente(){
 			return;
 		}else{
 				if(numero1>numero2 & numero1>numero3 & numero2>numero3){
-						console.log(`A ordem decrescente dos números são: ${numero1} - ${numero2} - ${numero3}`);
+						console.log(`A ordem crescente dos números são: ${numero3} - ${numero2} - ${numero1}`);
 				}else if (numero1>numero2 & numero1>numero3 & numero3>numero2){
-						console.log(`A ordem decrescente dos números são: ${numero1} - ${numero3} - ${numero2}`);
+						console.log(`A ordem crescente dos números são: ${numero2} - ${numero3} - ${numero1}`);
 				}else if (numero2>numero1 & numero2>numero3 & numero1>numero3){
-						console.log(`A ordem decrescente dos números são: ${numero2} - ${numero1} - ${numero3}`);
+						console.log(`A ordem crescente dos números são: ${numero3} - ${numero1} - ${numero2}`);
 				}else if (numero2>numero1 & numero2>numero3 & numero3>numero1){
-						console.log(`A ordem decrescente dos números são: ${numero2} - ${numero3} - ${numero1}`);
+						console.log(`A ordem crescente dos números são: ${numero1} - ${numero3} - ${numero2}`);
 				}else if (numero3>numero1 & numero3>numero2 & numero1>numero2){
-						console.log(`A ordem decrescente dos números são: ${numero3} - ${numero1} - ${numero2}`);
-				}else if (numero3>numero1 & numero3>numero2 & numero2>numero3){
-						console.log(`A ordem decrescente dos números são: ${numero3} - ${numero2} - ${numero1}`);
+						console.log(`A ordem decrescente dos números são: ${numero2} - ${numero1} - ${numero3}`);
+				}else if (numero3>numero1 & numero3>numero2 & numero2>numero1){
+						console.log(`A ordem crescente dos números são: ${numero1} - ${numero2} - ${numero3}`);
 				};
 		}
 }
-ordemDecrescente();
+ordemCrescente();
 
 // 10. Crie um programa de conversão entre as temperaturas Celsius, Farenheit e Kelvin usando funções para isso.
 // O programa deve ler a opção escolhida pelo usuário, que escolhe uma determinada conversão entre escalas termométricas e,
