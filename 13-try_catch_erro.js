@@ -1,5 +1,5 @@
-// 1 - Crie um programa que recebe do teclado um número e 
-// tenta dividir por zero dentro de um bloco try...catch. 
+// 1 - Crie um programa que recebe do teclado um número e
+// tenta dividir por zero dentro de um bloco try...catch.
 // Capture o erro e o exiba "Erro: Divisão por zero" no console
 
 const readline1 = require('readline-sync');
@@ -19,8 +19,8 @@ if (divisor !== 0){
 }
 
 
-// 2 - Crie um programa que recebe do teclado uma string não numérica 
-// em um número utilizando parseInt dentro de um bloco try...catch. 
+// 2 - Crie um programa que recebe do teclado uma string não numérica
+// em um número utilizando parseInt dentro de um bloco try...catch.
 // Capture o erro e o exiba "Erro: Conversão inválida" no console.
 
 const readline2 = require('readline-sync');
@@ -39,8 +39,8 @@ if(!isNaN(converte)){
 }
 
 
-// 3- Crie um programa que recebe do teclado um objeto e tente acessar 
-// uma propriedade inexistente desse objeto dentro de um bloco try...catch. 
+// 3- Crie um programa que recebe do teclado um objeto e tente acessar
+// uma propriedade inexistente desse objeto dentro de um bloco try...catch.
 // Capture o erro e o exiba "Erro: Propriedade não encontrada" no console.
 
 function verificarObjeto(){
@@ -55,7 +55,7 @@ function verificarObjeto(){
         try {
             if(verificar === false){
                 throw "Propriedade não existe"
-            }   
+            }
         } catch (error) {
             console.log(`[Erro] Propriedade não encontrada\n${error.messsage}`);
         }
