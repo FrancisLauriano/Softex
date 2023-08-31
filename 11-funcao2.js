@@ -190,5 +190,3 @@ console.log(`A sua senha é: ${senhaConcluida}`)
 
 
 
-// Number.isInteger(5)
-// typeof(x) === 'string'
