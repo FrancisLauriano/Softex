@@ -260,8 +260,6 @@ salarioTotalAnual();
 
 // 9. Elabore um programa em JS para que leia três números e mostre-os em ordem crescente.
 
-// 9. Elabore um programa em JS para que leia três números e mostre-os em ordem crescente.
-
 function ordemCrescente(){
 
 	const readline8= require('readline-sync');
@@ -355,17 +353,17 @@ function diasMes (mes, ano){
 
 				if(!Number.isInteger(ano)){
 					console.log(`Ano deverá ser número inteiro!`);
-				}else if(!Number.isInteger(mes) & (mes >1 || mes < 12)){
+				}else if(!Number.isInteger(mes) || (mes < 1 || mes > 12)){
 						console.log(`Opção de mês selecionado inválido!`);
 				}else{
 					if((ano%400 === 0 || (ano%4 === 0 & ano%100 !== 0)) & mes === 2){
-							console.log(`O mês de ${mes} do ${ano} possoi 29 dias!\nOBS: O ano ${ano} é bissexto pelo caledário gregoriano.`);
+							console.log(`O mês de ${mes} do ano ${ano} possui 29 dias!\nOBS: O ano ${ano} é bissexto pelo caledário gregoriano.`);
 					}else if((ano%400 !== 0 || (ano%4 !== 0 & ano%100 === 0)) & mes === 2){
-							console.log(`O mês de ${mes} do ${ano} possoi 28 dias!`);
+							console.log(`O mês de ${mes} do ano ${ano} possui 28 dias!`);
 					}else if( mes === 4 || mes === 6 || mes === 9 || mes === 11){
-							console.log(`O mês de ${mes} do ${ano} possoi 30 dias!`);
+							console.log(`O mês de ${mes} do ano ${ano} possui 30 dias!`);
 					}else{
-							console.log(`O mês de ${mes} do ${ano} possoi 31 dias!`);
+							console.log(`O mês de ${mes} do ano ${ano} possui 31 dias!`);
 					}
 				}
 	}
