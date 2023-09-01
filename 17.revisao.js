@@ -17,10 +17,10 @@ function mediaTresNotas() {
 		}else if(!isNaN(nomeAluno)){
 			console.log("[ERRO]\nNome do aluno deve ter apenas letras!");
 			return;
+		}else{
+			let media1 = (nota1 + nota2 + nota3) / 3;
+			console.log(`${nomeAluno} sua média é ${media1.toFixed(2)}`);
 		}
-
-		let media1 = (nota1 + nota2 + nota3) / 3;
-		console.log(`${nomeAluno} sua média é ${media1.toFixed(2)}`);
 }
 mediaTresNotas();
 
@@ -38,7 +38,8 @@ function verificaAno(){
 
 
 		if(verificaNumeroInt === false){
-			console.log(`[Erro] O ano deve ser número inteiro!`)
+			console.log(`[ERRO]\nO ano deve ser número inteiro!`);
+			return;
 		}else{
 			if(ano >= 1582){
 				if((ano % 400 === 0) || ((ano % 4 === 0) && (ano % 100 !== 0))){
@@ -72,10 +73,10 @@ function impostoProduto(){
 	let valorComImposto = undefined;
 
 		if(isNaN(valor) ){
-			console.log(`Valor do produto deverá ser números`);
+			console.log(`[ERRO]\nValor do produto deverá ser números`);
 			return;
 		}else if(!Number.isInteger(estado)){
-			console.log(`Deverá ser informado um número inteiro correspondente ao estado de destino!`);
+			console.log(`[ERRO]\nDeverá ser informado um número inteiro correspondente ao estado de destino!`);
 			return;
 		}else{
 			switch (estado) {
@@ -162,7 +163,7 @@ function numImparNatural(){
 	let qtdNumerosImpares = 0;
 
 		if(!Number.isInteger(numeroRecebido)){
-			console.log(`Deverá ser informado um número inteiro!`);
+			console.log(`[ERRO]\nDeverá ser informado um número inteiro!`);
 			return;
 		}else{
 			for(numeroRecebido; qtdNumerosImpares <= 10; numeroRecebido++){
@@ -184,7 +185,7 @@ function salarioDiasTrabalhados(){
 	const readline5 = require('readline-sync');
 	let diasTrabalho = readline5.questionFloat(console.log(`Digite a quantidade de dias trabalhados:`));
 		if(!Number.isInteger(diasTrabalho)){
-			console.log(`Deverá ser informado um número inteiro!`);
+			console.log(`[ERRO]\nDeverá ser informado um número inteiro!`);
 			return;
 		}else{
 			let salarioBruto = 30 * diasTrabalho;
@@ -201,11 +202,11 @@ salarioDiasTrabalhados();
 function horarioTerminoExp(){
 
 	const readline6= require('readline-sync');
-	let segTotal;
-	let minTotal;
-	let horaTotal;
-	let segCalculado;
-	let minCalculado;
+	let segTotal = undefined;
+	let minTotal = undefined;
+	let horaTotal = undefined;
+	let segCalculado = undefined;
+	let minCalculado = undefined;
 
 	let horario = readline6.question(console.log(`Informe o horário de inicio do experimento no formato hh:mm:ss: `));
 	let segDuracao = readline6.questionInt(console.log(`Informe a duração em segundos do experimento: `));
@@ -247,7 +248,7 @@ function salarioTotalAnual(){
 	let horasExtras = readline7.questionFloat(console.log(`Infome o total de horas extras realizadas no ano: `));
 
 		if(!Number.isInteger(horasNormais) || !Number.isInteger(horasExtras)){
-			console.log(`As horas normais e extras deveram ser números inteiros!`);
+			console.log(`[ERRO]\nAs horas normais e extras deveram ser números inteiros!`);
 			return;
 		}else{
 			let salarioNormal = horasNormais*10;
@@ -269,7 +270,7 @@ function ordemCrescente(){
 
 
 		if(isNaN(numero1) || isNaN(numero2 || isNaN(numero3))){
-			console.log(`Deverá ser digitado números!!`);
+			console.log(`[ERRO]\nDeverá ser digitado números!!`);
 			return;
 		}else{
 				if(numero1>numero2 & numero1>numero3 & numero2>numero3){
@@ -284,7 +285,7 @@ function ordemCrescente(){
 						console.log(`A ordem decrescente dos números são: ${numero2} - ${numero1} - ${numero3}`);
 				}else if (numero3>numero1 & numero3>numero2 & numero2>numero1){
 						console.log(`A ordem crescente dos números são: ${numero1} - ${numero2} - ${numero3}`);
-				};
+				}
 		}
 }
 ordemCrescente();
@@ -310,7 +311,7 @@ function conversaoTemperatura(opcaoConversao) {
 
 			switch (opcaoConversao) {
 			case 1:
-					fahrenheit = (1,8*temperatura)+32;
+					fahrenheit = (1.8*temperatura)+32;
 					console.log(`${temperatura}°C equivale a ${fahrenheit}°F`);
 					break;
 			case 2:
@@ -352,9 +353,9 @@ function diasMes (mes, ano){
 	mes = readline10.questionFloat(console.log(`1.JANEIRO\n2.FEVEREIRO\n3.MARÇO\n4.ABRIL\n5.MAIO\n6.JUNHO\n7.JULHO\n8.AGOSTO\n9.SETEMBRO\n10.OUTUBRO\n11.NOVEMBRO\n12.DEZEMBRO`));
 
 				if(!Number.isInteger(ano)){
-					console.log(`Ano deverá ser número inteiro!`);
+					console.log(`[ERRO]\nAno deverá ser número inteiro!`);
 				}else if(!Number.isInteger(mes) || (mes < 1 || mes > 12)){
-						console.log(`Opção de mês selecionado inválido!`);
+						console.log(`[ERRO]\nOpção de mês selecionado inválido!`);
 				}else{
 					if((ano%400 === 0 || (ano%4 === 0 & ano%100 !== 0)) & mes === 2){
 							console.log(`O mês de ${mes} do ano ${ano} possui 29 dias!\nOBS: O ano ${ano} é bissexto pelo caledário gregoriano.`);
@@ -374,7 +375,7 @@ diasMes();
 // considerando que o tempo máximo de duração de um jogo é de 24 horas e que o jogo pode começar em um dia e terminar no outro.
 
 function duracaoJogo(inicio, fim) {
-	const readline11 = require('readline-sync');
+	const readline11 = require('readsline-sync');
 
 
 	inicio = readline11.question(console.log(`Informe o horário de inicio no jogo formato hh:mm: `));
@@ -388,9 +389,9 @@ function duracaoJogo(inicio, fim) {
 	let fimHora = Number(stringFim[0]);
 	let fimMinuto = Number(stringFim[1]);
 
-	let minutoTotal;
-	let horasParaMinutos;
-	let minutoCalculado;
+	let minutoTotal = undefined;
+	let horasParaMinutos = undefined;
+	let minutoCalculado = undefined;
 
 	//termina no outro dia
 	if((inicioHora > fimHora) || (inicioHora === fimHora & inicioMinuto >= fimMinuto)){
