@@ -11,6 +11,11 @@
   "license": "ISC",
   "dependencies": {
     "prompt-sync": "^4.2.0",
-    "readline-sync": "^1.4.10"
+    "readline-sync": "^1.4.10",
+    "sequelize": "^6.33.0",
+    "sqlite3": "^5.1.6"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2"
   }
 }
