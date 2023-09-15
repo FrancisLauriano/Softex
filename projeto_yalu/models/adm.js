@@ -13,13 +13,13 @@ const Adm = database.define('adm', {
         allowNull: false
     },
     email: {
-			type: Sequelize.STRING,
-			allowNull: false
+        type: Sequelize.STRING,
+        allowNull: false
     },
     senha: {
-			type: Sequelize.INTEGER,
-			allowNull: false
-		}
+        type: Sequelize.STRING,
+        allowNull: false
+    }
 });
 
 module.exports = Adm;

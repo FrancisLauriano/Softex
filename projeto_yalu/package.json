@@ -21,7 +21,10 @@
   "devDependencies": {
     "typescript": "^5.2.2"
   },
-  "repository": "git+https://github.com/FrancisLauriano/Softex.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FrancisLauriano/Softex.git"
+  },
   "bugs": {
     "url": "https://github.com/FrancisLauriano/Softex/issues"
   },

@@ -13,17 +13,18 @@ const Aluno = database.define('aluno', {
         allowNull: false
     },
     telefone: {
-			type: Sequelize.INTEGER,
-			allowNull: false
+        type: Sequelize.STRING,
+        allowNull: false
     },
-		email: {
-			type: Sequelize.STRING,
-			allowNull: false
+    email: {
+        type: Sequelize.STRING,
+        allowNull: false
     },
     turma: {
-			type: Sequelize.INTEGER,
-			allowNull: false
-		}
+        type: Sequelize.INTEGER,
+        allowNull: false
+    }
 });
 
 module.exports = Aluno;
+

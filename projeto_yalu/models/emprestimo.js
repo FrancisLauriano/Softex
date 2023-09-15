@@ -3,7 +3,6 @@ const database = require('../db');
 const Aluno = require('./models/aluno');
 const Instrumento = require('./models/instrumento');
 
-
 const Emprestimo = database.define('emprestimo', {
     id: {
         type: Sequelize.INTEGER,
@@ -16,21 +15,19 @@ const Emprestimo = database.define('emprestimo', {
         allowNull: false
     },
     evento: {
-			type: Sequelize.STRING,
-			allowNull: false
-		}
+        type: Sequelize.STRING,
+        allowNull: false
+    }
 });
 
-Emprestimo.belongsTo(Aluno,{
-	constraint: true,
-  foreignKey: 'idAluno'
+Emprestimo.belongsTo(Aluno, {
+    constraints: true,
+    foreignKey: 'idAluno'
 });
 
-
-Emprestimo.belongsTo(Instrumento,{
-	constraint: true,
-  foreignKey: 'idInstrumento'
+Emprestimo.belongsTo(Instrumento, {
+    constraints: true,
+    foreignKey: 'idInstrumento'
 });
 
 module.exports = Emprestimo;
-

@@ -8,20 +8,20 @@ const Manutencao = database.define('manutencao', {
         autoIncrement: true,
         allowNull: false,
         primaryKey: true
-		},
+    },
     data: {
         type: Sequelize.DATE,
         allowNull: false
     },
     descricao: {
-			type: Sequelize.STRING,
-			allowNull: false
+        type: Sequelize.STRING,
+        allowNull: false
     }
 });
 
-Manutencao.belongsTo(Instrumento,{
-	constraint: true,
-  foreignKey: 'idInstrumento'
+Manutencao.belongsTo(Instrumento, {
+    constraints: true,
+    foreignKey: 'idInstrumento'
 });
 
 module.exports = Manutencao;
