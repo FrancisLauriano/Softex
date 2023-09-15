@@ -1,6 +1,9 @@
 const Sequelize = require('sequelize');
 const database = require('../db');
-const Instrumento = require('./models/instrumento');
+const Adm = require('./adm');
+const Aluno = require('./aluno');
+const Instrumento = require('./instrumento');
+
 
 const Manutencao = database.define('manutencao', {
     id: {
