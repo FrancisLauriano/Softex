@@ -1,9 +1,6 @@
 const Sequelize = require('sequelize');
 const database = require('../db');
-const Adm = require('./adm');
-const Aluno = require('./aluno');
 const Instrumento = require('./instrumento');
-
 
 const Manutencao = database.define('manutencao', {
     id: {
@@ -22,9 +19,12 @@ const Manutencao = database.define('manutencao', {
     }
 });
 
-Manutencao.belongsTo(Instrumento, {
-    constraints: true,
-    foreignKey: 'idInstrumento'
-});
+const associate = (models) => {
+    Manutencao.belongsTo(models.Instrumento, {
+        constraints: true,
+        foreignKey: 'instrumentoId',
+        allowNull: false
+    });
+};
 
-module.exports = Manutencao;
+module.exports = { Manutencao, associate };
