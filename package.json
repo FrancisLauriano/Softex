@@ -16,6 +16,8 @@
     "readline-sync": "^1.4.10",
     "sequelize": "^6.33.0",
     "sqlite3": "^5.1.6",
+    "ts-node": "^10.9.1",
+    "tsc": "^2.0.4",
     "uuidv4": "^6.2.13"
   },
   "devDependencies": {
