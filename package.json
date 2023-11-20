@@ -12,6 +12,7 @@
   "dependencies": {
     "express": "^4.18.2",
     "mysql2": "^3.6.1",
+    "nodemon": "^3.0.1",
     "prompt-sync": "^4.2.0",
     "readline-sync": "^1.4.10",
     "sequelize": "^6.33.0",
@@ -21,6 +22,8 @@
     "uuidv4": "^6.2.13"
   },
   "devDependencies": {
+    "@types/node": "^20.9.2",
+    "@types/readline-sync": "^1.4.7",
     "typescript": "^5.2.2"
   },
   "repository": "git+https://github.com/FrancisLauriano/Softex.git",
