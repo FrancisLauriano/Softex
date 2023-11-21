@@ -1,0 +1,26 @@
+GET http://localhost:3000/jogos
+
+###
+
+POST http://localhost:3000/jogos 
+Content-Type: application/json
+
+
+    {
+    "nome": "novo jogo teste 1",
+    "lancamento": "01 de janeiro de 2023"
+    }
+
+###
+
+PUT http://localhost:3000/jogos
+Content-Type: application/json
+
+    {
+
+    }
+
+###
+
+DELETE http://localhost:3000/jogos
+Content-Type: application/json
