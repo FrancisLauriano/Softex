@@ -31,6 +31,8 @@ app.get("/livros/:id", (req: Request, res: Response) => {
 });
 
 
+
+
 // Adicionar livro numa rota
 app.post("/livros", (req: Request, res: Response) => {
     const novoLivro = {
@@ -60,7 +62,9 @@ app.put("/livros/:id", (req: Request, res: Response) => {
         autor: req.body.autor
     }
 
-    res.json(livros[livroIndex]);
+    res.status(201).json(livros[livroIndex]);
+
+    
 });
 
 
@@ -70,11 +74,13 @@ app.delete("/livros/:id", (req: Request, res: Response) => {
 
     if(deletarLivroIndex === -1) {
         return res.status(404).json({mensagem: "Livro não encontrado!"});
-    }
+    } else {
 
     livros.splice(deletarLivroIndex, 1);
 
     res.json({mensagem: "Livro removido com sucesso!"})
+    }
+    
 })
 
 
@@ -84,3 +90,16 @@ app.listen(porta, () => {
     console.log(`Servidor typescrip rodando em http://localhost:${porta}/livros`);
 })
 
+
+
+// Buscar por Id numa  rora usando foro 
+// app.get("/livros/:id", (req: Request, res: Response) => {
+//     let livro;
+//     for(let i = 0; i < livros.length; i++)
+
+//     if(!livro) {
+//         return res.status(404).json({mensagem: "Livro não encontrado!"});
+//     }
+
+//     res.send(livro);
+// });

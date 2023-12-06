@@ -1,3 +1,17 @@
+
+GET http://localhost:3000
+
+###
+
+POST http://localhost:3333
+Content-Type: application/json
+
+{
+    "text": "Hello my friend!"
+}
+
+###
+
 GET http://localhost:3000/jogos
 
 ###
