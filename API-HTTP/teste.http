@@ -1,7 +1,16 @@
 
-GET http://localhost:3000
+GET http://localhost:3000/inbox
 
 ###
+
+GET http://localhost:3000/inbox/scan
+
+###
+
+GET http://localhost:3000/devices
+
+###
+
 
 POST http://localhost:3333
 Content-Type: application/json

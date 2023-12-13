@@ -15,11 +15,8 @@ app.post ('/', async (req: Request, res: Response) => {
         
     } catch (error) {
         console.error(error);
-        res.status(500).json({error: 'Erro ao processar a tradução.'})
-        
+        res.status(500).json({error: 'Erro ao processar a tradução.'})    
     }
-    
-
 });
 
 
