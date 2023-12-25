@@ -50,7 +50,7 @@ app.post('/usuarios', (req: Request, res: Response) => {
         usuarios.push(novoUsuario);
         res.status(201).json(novoUsuario);
         
-    } catch (error) {
+    } catch (error: any) {
         res.status(400).json({mensagem: 'Falha ao adicionar novo usuário!'})   
     }
 });
