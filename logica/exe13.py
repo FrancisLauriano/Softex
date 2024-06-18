@@ -12,8 +12,10 @@ def pesoPsexo():
 
     if sexo == 1:
         peso = round((62.1*altura) - 44.7, 2)
-    else:
+    elif sexo == 2:
         peso = round((72.7*altura) - 58, 2)
+    else:
+        peso = "Opção selecionada não existe!"    
 
     return peso
 
