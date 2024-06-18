@@ -13,3 +13,4 @@ def parOuImpar():
 
 resultado = parOuImpar()
 print(f'O resultado: {resultado}')    
+ 
