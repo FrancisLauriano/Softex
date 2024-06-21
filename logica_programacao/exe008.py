@@ -1,5 +1,4 @@
-# Escreva um programa Python que determine se um número
-# fornecido pelo usuário é positivo, negativo ou zero.
+# Escreva um programa Python que determine se um número fornecido pelo usuário é positivo, negativo ou zero.
 
 def positivoNegativo():
     numero = float(input('Digite o número que deseja verificar: '))

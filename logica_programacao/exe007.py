@@ -1,5 +1,4 @@
-# Crie um programa Python que solicite ao usuário uma
-# temperatura em Fahrenheit e converta para Celsius.
+# Crie um programa Python que solicite ao usuário uma temperatura em Fahrenheit e converta para Celsius.
 
 def conversorFparaC():
     temperatura = float(input('Digite a temperatura em °F: '))

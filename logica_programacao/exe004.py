@@ -1,5 +1,4 @@
-# Escreva um algoritmo que solicite ao usuário dois números e
-# exiba a soma deles.
+# Escreva um algoritmo que solicite ao usuário dois números e exiba a soma deles.
 
 def soma():
     numero1 = float(input('Digite o primeiro número: '))

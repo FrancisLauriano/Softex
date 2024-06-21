@@ -1,5 +1,4 @@
-# Faça um Programa que peça as 4 notas bimestrais e
-# mostre a média.
+# Faça um Programa que peça as 4 notas bimestrais e mostre a média.
 
 def mediaBimestral():
     nota1 = float(input('Digite a primeira nota: '))

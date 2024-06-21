@@ -1,5 +1,4 @@
-# Desenvolva um algoritmo que leia três números e exiba o
-# maior deles.
+# Desenvolva um algoritmo que leia três números e exiba o maior deles.
 
 def maiorDosNumero():
     numero1 = int(input('Digite o primeiro número: '))

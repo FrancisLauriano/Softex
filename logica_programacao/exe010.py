@@ -1,5 +1,4 @@
-# Faça um Programa que converta metros para
-# centímetros.
+# Faça um Programa que converta metros para centímetros.
 
 def metroPCentimetro():
     metro = float(input('Digite o valor em metro para ser convertido para centímetro: '))

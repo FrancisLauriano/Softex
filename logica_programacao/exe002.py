@@ -1,3 +1,7 @@
+# Elabore um algoritmo que receba o nome do estudante, a primeira e
+# a segunda nota da avaliação. Ao final exiba o nome, a primeira nota,
+# a segunda nota e a média do estudante.
+
 def mediaNota():
     nomeAluno = input("Digite o nome do(a) aluno(a): ")
     nota1 = float(input("Digite a primeira nota do aluno(a): "))

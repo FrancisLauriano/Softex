@@ -1,5 +1,4 @@
-# Crie um algoritmo que verifique se um número é par ou
-# ímpar.
+# Crie um algoritmo que verifique se um número é par ou ímpar.
 
 def parOuImpar():
     numero = int(input('Digite o número a ser verificado: '))
