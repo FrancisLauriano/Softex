@@ -1,7 +1,8 @@
-# Exercícios de Lógica de Programação em Python e Banco de Dados
+# Softex
+FAP - Formação Acelerada em Programação Back-End em Python
 
-https://github.com/FrancisLauriano/Softex/tree/Python
+## Descrição
+Resolução em Python dos exercícios de Lógica de Programação e Algoritmos e Banco de Dados.
 
-
-
-
+## Conteúdo
+Atividades e Desafios: Python e SQL.
