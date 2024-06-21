@@ -1,2 +1,8 @@
 # Softex
-Atividades e Desafios - Sala de Aula e Plataforma Online - Formação Dev Back-End
+FAP - Formação Acelerada em Programação
+
+## Descrição
+Resolução em Javascript, Typescript dos exercícios de Lógica de Programação e Algoritmos e Banco de Dados.
+
+## Conteúdo
+Atividades e Desafios - Sala de Aula: JavaScript, TypeScript, Node.JS, Express, API Rest e Banco de Dados.
