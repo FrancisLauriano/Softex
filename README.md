@@ -5,4 +5,5 @@ FAP - Formação Acelerada em Programação Back-End em Python
 Resolução em Python dos exercícios de Lógica de Programação e Algoritmos e Banco de Dados.
 
 ## Conteúdo
-Atividades e Desafios: Python e SQL.
+1. [Exercícios de Lógica de Programação em Python](logica_programacao)
+2. [Exercícios de Banco de Dados](banco_dados)
