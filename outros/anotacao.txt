@@ -1,0 +1,9 @@
+1. Potencia: ** ou pow()
+2. Raiz quadrada: Pontencia do número por 1/2. Exemplo: 81**(1/2)
+2. Divisão Inteira: //
+3. Resto da Divisão: %
+4. round(): permite arredondar um número para um determinado número de casas decimais
+5. Definir quantas casa apos a virgula será printato na tela: print('O resultado: {:.2f}'.format(mediaFinal))   
+6. , end=' ' --> duas linhas de print na mesma linha
+7. \n --> quebra de linha
+

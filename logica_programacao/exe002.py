@@ -15,4 +15,4 @@ def mediaNota():
 #chamar a função e printar na tela
 aluno, N1, N2, mediaFinal = mediaNota()
 print(f'O(a) aluno(a) {aluno} obteve as seguintes notas e média: \nNota 1: {N1}\nNota2: {N2}\nMédia: {mediaFinal}')
-print('O resultado: {}'.format(mediaFinal))   
+print('O resultado: {:.2f}'.format(mediaFinal))   
