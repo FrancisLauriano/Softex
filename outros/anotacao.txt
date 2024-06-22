@@ -10,3 +10,12 @@ Exemplo --> print('Resultado: {:.2f}'.format(mediaFinal))
 Exemplo --> {:2f}
 7. Duas linhas de print na mesma linha: , end=' '
 8. Quebra de linha: \n
+9. Biblioteca math:
+- ceil: Arredondar para cima
+- floor: Arredondar para baixo
+- trunc: Truncar o número, ou seja, vai eliminar a parte depois da virgula sem arredondar. Deixa só a parte inteira
+- pow: Potencia
+- sqrt: Calcular a raiz quadrada
+- factorial: Calcular factorial
+10. Instalar bibliotecas externas: pip install nomeDaBiblioteca
+
