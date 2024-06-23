@@ -18,4 +18,32 @@ Exemplo --> {:2f}
 - sqrt: Calcular a raiz quadrada
 - factorial: Calcular factorial
 10. Instalar bibliotecas externas: pip install nomeDaBiblioteca
-
+11. Fatiamento de string:
+Exemplo --> 
+frase = 'Francis Lauriano'
+print(frase[0]) --> F
+print(frase[8:16]) --> Lauriano
+print(frase[8:16:2]) --> Luin
+print(frase[:7]) --> Francis
+print(frase[8:]) --> Lauriano
+print(frase[7::2]) -->  arao
+12. Comprimento string: len()
+13. Contar quantas vezes aparece um caracter numa string: count()
+14. Contar quantas vezes aparece um caracter numa string num intervalo: count()
+Exemplo --> frase.count('a', 0, 6)
+15. Mostrar quando aparece uma sequencia de caracteres numa string(mostra o inicio da ocorrencia): find(). OBS: Se retornar -1, significa que não existe esses caracteres na string
+16. Mostrar se existe uma sequencia de caracteres numa string: in. Irá retornar True ou False
+Exemplo --> print('Fran' in frase)
+17. Substituir caracters por outros naquela instancia: replace()
+Exemplo: frase.replace('Lauriano', 'Silva')
+OBS: Para realmente substituir deverá ser feito a atribuição.
+Exemplo: frase = frase.replace('Lauriano', 'Silva')
+18. Colocar os caracteres em maiusculo: upper()
+19. Colocar os caracteres em minusculo: lower()
+20. Colocar toda a string em minusculo e colocar apenas o primeiro caracter em maisculo: capitalize()
+21. Colocar em maisculos o primeiro caracter de todas as palavras da string: title()
+22. Remover os espaços vazios no inicio e no fim da string: strip()
+23. Remover apenas os espaços vazios a direita (fim da string): rstrip()
+24. Remover apenas os espaços vazios a esquerda (inicio da string): lstrip()
+25. Dividir a string aonde tiver espaço: split()
+26. Junção de strings de uma lista: join()
