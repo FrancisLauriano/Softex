@@ -6,11 +6,7 @@ def formaTriangulo():
     b = int(input('Infome o tamanho do segundo comprimento: '))
     c = int(input('Infome o tamanho do terceiro comprimento: '))
 
-    if a - b < c and a + b > c:
-        mensagem = 'Com os comprimentos {}, {} e {} é possível formar um triângulo'.format(a, b, c)
-    elif a - c < b and a + c > b:
-        mensagem = 'Com os comprimentos {}, {} e {} é possível formar um triângulo'.format(a, b, c)
-    elif b - c < a and  b + c > a:
+    if a + b > c or a + c > b or b + c > a:
         mensagem = 'Com os comprimentos {}, {} e {} é possível formar um triângulo'.format(a, b, c)
     else:
         mensagem = 'Com os comprimentos {}, {} e {} não é possível formar um triângulo'.format(a, b, c)
