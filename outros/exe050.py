@@ -1,7 +1,6 @@
 #Faça um programa que leia um número inteiro e diga se ele é ou não número primo.
 
 # Número primo tem apenas e só apenas dois divisores: 1 e ele mesmo.
-from math import factorial
 
 qtdDivisores = 0
 
